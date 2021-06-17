@@ -1,0 +1,41 @@
+<!--
+Escreva um documento HTML correspondente à aparência ilustrada na figura abaixo
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <p>Nome: <input type="text" /></p>
+        <p>Idade: <input type="text" /></p>
+     </fieldset>
+
+     <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label for="Escolaridade">Escolaridade</label>
+        <select id="Escolaridade" required>
+          <option selected disabled value="">Selecione</option>
+          <option>Ensino Fundamental</option>
+          <option>Ensino Médio</option>
+          <option>Ensino Superior</option>
+        </select>
+        <br>
+        <label>Área de atuação:</label>
+        <input type="checkbox" id="Gerência" name="Gerência" value="Gerência">
+        <label for="Gerência"> Gerência</label>
+        <input type="checkbox" id="Financeiro" name="Financeiro" value="Financeiro">
+        <label for="Financeiro"> Financeiro</label>
+        <input type="checkbox" id="Recepção" name="Recepção" value="Recepção">
+        <label for="Recepção"> Recepção</label>
+    </fieldset>
+</body>
+
+</html>
